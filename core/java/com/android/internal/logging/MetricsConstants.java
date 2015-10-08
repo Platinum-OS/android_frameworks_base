@@ -263,6 +263,24 @@ public interface MetricsConstants {
     public static final int TUNER_BATTERY_PERCENTAGE = 237;
     public static final int FUELGAUGE_INACTIVE_APPS = 238;
 
+    // Euphoria-OS
+    // QS Tiles
+    public static final int QS_BRIGHTNESS = 239;
+    public static final int QS_SCREEN_OFF = 240;
+    public static final int QS_SCREENSHOT = 241;
+    public static final int QS_VOLUME = 242;
+    public static final int QS_HEADSUP = 243;
+
+    // Power menu
+    public static final int POWER_MENU_SETTINGS = 244;
+
+    // Notifcation and battery settings
+    public static final int NOTIFICATION_LIGHT_SETTINGS = 245;
+    public static final int BATTERY_LIGHT_SETTINGS = 246;
+
+    // Notification drawer settings
+    public static final int NOTIFICATION_DRAWER_SETTINGS = 247;
+
     // These constants must match those in the analytic pipeline, do not edit.
     // Add temporary values to the top of MetricsLogger instead.
 
