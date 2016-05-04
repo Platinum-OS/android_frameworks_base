@@ -3321,6 +3321,18 @@ public final class Settings {
         };
 
         /**
+         * location of the clear all rectents button
+         * @hide
+         */
+        public static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
+
+        /**
+         * show clear all recents button
+         *  @hide
+         */
+        public static final String SHOW_CLEAR_ALL_RECENTS = "show_clear_all_recents";
+
+        /**
          *  Enable navigation bar double tap gesture on to put device to sleep
          * @hide
          */
